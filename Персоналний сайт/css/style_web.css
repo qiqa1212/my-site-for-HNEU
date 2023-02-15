@@ -1,0 +1,112 @@
+
+body{
+   background: rgb(9, 36, 57);
+   color: rgb(255, 255, 255);
+   
+}
+p, li,td,caption,label,input,span {
+   font-size: 25px;
+   line-height: 35px;
+   font-family: 'Andale Mono' monospace;
+   
+}
+h1,h2,h3, th, td:first-child{
+   font-family:  'Bradley Hand' cursive;
+}
+h1{
+   font-size: 50px;
+   margin-left: 40px;
+}
+h2{
+   font-size: 40px;
+}
+h3{
+   font-size: 30px
+}
+a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+table {
+   font-size: 20px;
+   text-align: center;
+}
+table, th, td {
+   border: 0px;
+   padding: auto;
+}
+th, td:first-child {
+   background: rgb(14, 61, 97);
+   color: white;
+   padding: 10px 20px;
+   font-weight: bold ;
+}
+td {
+   background: rgba(23, 57, 83, 0.799);
+}
+th:first-child, td:first-child {
+   text-align: left;
+}
+caption{
+   font-weight: 700;
+   text-align: center;
+}
+header{
+   position: sticky;
+   top: 0;
+   background: rgb(9, 36, 57);
+}
+.navigation{
+   border: solid 5px #000;
+   border-bottom: solid 5px #000;
+}
+.button-1{
+   font-family:  'Bradley Hand', cursive;
+	font-size: 20px;
+   height: 28px;
+   width: 95px;
+   padding: 5px 2px 0px 2px;
+   display: inline-block;
+   text-align: center;
+   background: rgb(9, 36, 57);
+   color: aqua;
+}
+.button-2{
+   font-family:  'Bradley Hand', cursive;
+	font-size: 20px;
+   border-radius: 5px ;
+   height: 28px;
+   width: 95px;
+   padding: 5px 2px 0px 2px;
+   display: inline-block;
+   text-align: center;
+   background: rgb(14, 61, 97);
+   color: aqua;
+   
+}
+.button-2:hover, .button-1:hover, .b-1:hover,.b-2:hover{
+   border-radius: 5px ;
+   background: rgba(44, 124, 185, 0.526);
+   color: aqua;
+}
+
+.cont{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+   margin: 20px;
+}
+.stage{
+   padding: 20px;
+   background: rgba(44, 124, 185, 0.526);
+   box-shadow: inset;
+   border: solid 5px #000;
+   box-shadow: inset;
+   box-shadow: 0px 0.2em 0.2em 0.5em  rgb(255, 255, 255);
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style_question.css">
+   <link rel="icon" sizes="32x32" href="./img/icon.ico">
+   <title>Питання</title>
+</head>
+
+<body>
+
+   <header>
+      <div class="navigation">
+         <a class="button-1" href="./index.html">Головна</a>
+         <a class="button-2" href="./question.html">Питання</a>
+         <a class="button-1" href="./photo.html">Фото</a>
+         <a class="button-1" href="./pc.html">PC</a>
+         <a class="button-1" href="./game.html">Ігри</a>
+         <a class="button-1" href="./web.html">Про веб</a>
+      </div>
+   </header>
+
+   </table>
+   <div class="center">
+      <h1>Опитування</h1>
+      <form action="#" method="get">
+         <div class="div-avt-blok">
+            <div class="div-avt 1">
+               <label for="name"><b>Ваше ім'я:</b></label><br>
+               <input tabindex="1" id="U_name" type="text">
+            </div>
+
+            <div class="div-avt 2">
+               <label for="number"><b>Номер:</b></label><br>
+               <input tabindex="1" id="number" type="number">
+            </div>
+
+            <div class="div-avt 3">
+               <label for="e-mail"><b>Пошта:</b></label><br>
+               <input tabindex="1" id="e-mail" type="email">
+            </div>
+         </div>
+         <label for="name"><b>1. Моє ім'я?</b></label><br><br>
+         <input tabindex="1" id="name" type="text"><br><br><br>
+
+         <label for="q1">2. В якому семестрі я вийшов на бюджет?</label><br>
+         <p class="answer-q1"><input tabindex="2" id="q1" name="q1" value="1" type="radio">1</p>
+         <p class="answer-q1"><input tabindex="2" id="q1" name="q1" value="2" type="radio">2</p>
+         <p class="answer-q1"><input tabindex="2" id="q1" name="q1" value="3" type="radio">3</p>
+         <p class="answer-q1"><input tabindex="2" checked id="q1" name="q1" value="4" type="radio">4</p>
+         <br><br>
+
+         <label for="q2"><b>3. Які мови програмування я вивчав?</b></label><br>
+         <p class="answer-q2"><input tabindex="3" checked id="q2" name="q2" value="js" type="checkbox">js</p>
+         <p class="answer-q2"><input tabindex="3" id="q2" name="q2" value="c#" type="checkbox">C#</p>
+         <p class="answer-q2"><input tabindex="3" id="q2" name="q2" value="c" type="checkbox">c</p>
+         <p class="answer-q2"><input tabindex="3" id="q2" name="q2" value="py" type="checkbox">Python</p>
+         <p class="answer-q2"><input tabindex="3" id="q2" name="q2" value="c++" type="checkbox">c++</p>
+         <p class="answer-q2"><input tabindex="3" id="q2" name="q2" value="java" type="checkbox">java</p>
+         <p class="answer-q2"><input tabindex="3" checked id="q2" name="q2" value="F#" type="checkbox">F#</p>
+         <p class="answer-q2"><input tabindex="3" id="q2" name="q2" value="html,css" type="checkbox">html,css</p>
+         <br><br>
+
+         <label for="q3"><b>4. Мій улюблений колір?</b></label><br><br>
+         <select name="color" id="q3">
+            <option tabindex="4" value="b">синій</option>
+            <option tabindex="4" value="w">білий</option>
+            <option tabindex="4" selected value="p">фіолетовий</option>
+            <option tabindex="4" value="y">жовтий</option>
+            <option tabindex="4" value="r">червоний</option>
+         </select><br><br><br>
+
+         <label for="q4"><b>5. Я один син в сім'ї?</b></label><br><br>
+         <span>Так</span>
+         <input tabindex="5" id="q4" type="range">
+         <span>Ні</span>
+         <br><br><br>
+
+         <label for="q5"><b>Опишіть ваші враження</b></label><br><br>
+         <textarea tabindex="6" name="" id="q5" cols="30" rows="10">Дуже сподобалось </textarea><br><br><br>
+
+         <button class="b-1" tabindex="7" type="submit">Відправити</button>
+         <button class="b-2" tabindex="8" type="reset">Очистити</button>
+      </form>
+   </div>
+</body>
+
+</html>
